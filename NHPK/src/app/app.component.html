@@ -1,0 +1,32 @@
+<div class="page">
+
+  <h1>Nordhordland Pistolklubb</h1>
+
+  <nav class="topnav">
+    <a routerLink="/about" routerLinkActive="active">Om Klubben</a>
+    <a routerLink="/board" routerLinkActive="active">Styret</a>
+    <a routerLink="/opening-hours" routerLinkActive="active">Åpningstider</a>
+    <a routerLink="/courses" routerLinkActive="active">Kurs</a>
+    <a routerLink="/competition" routerLinkActive="active">Stevner</a>
+    <a routerLink="/results" routerLinkActive="active">Resultater</a>
+    <a routerLink="/dynamic-shooting" routerLinkActive="active">Dynamisk Skyting</a>
+    <a routerLink="/contact" routerLinkActive="active">Kontakt</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+  <br />
+
+  <div class="pageContent">
+    <router-outlet></router-outlet>
+  </div>
+
+  <footer class="footer">
+    <p>
+      <i class="footerELM">{{footerText[0]}}</i> <br />
+      <i class="footerELM">{{footerText[1]}}</i>
+    </p>
+  </footer>
+
+</div>

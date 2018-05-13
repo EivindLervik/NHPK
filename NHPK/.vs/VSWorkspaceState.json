@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\about",
+    "\\src\\app\\board",
+    "\\src\\app\\competition",
+    "\\src\\app\\contact",
+    "\\src\\app\\courses",
+    "\\src\\app\\opening-hours",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\board\\board.component.css",
+  "PreviewInSolutionExplorer": false
+}

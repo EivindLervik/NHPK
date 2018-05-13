@@ -1,0 +1,14 @@
+<div class="board">
+  <h2>
+    Styret
+  </h2>
+  <ul class="memberContainer">
+    <li class="memberItem" *ngFor="let member of boardMembers">
+      <div class="member">
+        <h3>{{member.position}}</h3>
+        <p>{{member.name}}</p>
+      </div>
+    </li>
+  </ul>
+</div>
+

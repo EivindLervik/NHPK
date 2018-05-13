@@ -1,0 +1,17 @@
+@import url("../app.component.css");
+
+.memberContainer {
+  list-style: none;
+  padding-left: 0;
+  
+}
+
+.memberItem{
+  padding-bottom: 1em;
+}
+
+.member {
+  border-radius: 25px;
+  background: #9ed3b3;
+  padding: 20px;
+}
